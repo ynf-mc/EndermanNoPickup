@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "enp",
+  "version": "${version}",
+  "name": "EndermanNoPickup",
+  "description": "Enderman doesn't pick up mushrooms.",
+  "authors": [
+    "xiaoyu2006"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "assets/enp/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "top.ycao.enp.ENPInitializer"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "enp.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.2"
+  }
+}

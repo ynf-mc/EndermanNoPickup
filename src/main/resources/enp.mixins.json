@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "top.ycao.enp.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EndermanEntityMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
