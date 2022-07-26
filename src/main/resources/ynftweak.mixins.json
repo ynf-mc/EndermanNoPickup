@@ -1,9 +1,10 @@
 {
   "required": true,
-  "package": "top.ycao.enp.mixin",
+  "package": "top.ycao.ynftweak.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "EndermanEntityMixin"
+    "EndermanEntityMixin",
+    "SignBlockEntityMixin"
   ],
   "client": [],
   "server": [],

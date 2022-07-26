@@ -1,4 +1,4 @@
-package top.ycao.enp.mixin;
+package top.ycao.ynftweak.mixin;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;

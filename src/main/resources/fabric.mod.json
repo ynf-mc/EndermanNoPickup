@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "enp",
+  "id": "ynftweak",
   "version": "${version}",
-  "name": "EndermanNoPickup",
-  "description": "Enderman doesn't pick up mushrooms.",
+  "name": "YnF Tweak",
+  "description": "Some tweaks for YnF.",
   "authors": [
     "xiaoyu2006"
   ],
@@ -14,13 +14,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "top.ycao.enp.ENPInitializer"
+      "top.ycao.ynftweak.YnFInitializer"
     ],
     "client": [],
     "server": []
   },
   "mixins": [
-    "enp.mixins.json"
+    "ynftweak.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.13.2"
