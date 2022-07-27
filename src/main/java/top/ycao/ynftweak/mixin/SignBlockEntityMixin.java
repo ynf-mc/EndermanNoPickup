@@ -16,7 +16,17 @@ import top.ycao.ynftweak.YnFInitializer;
 @Mixin(SignBlockEntity.class)
 public abstract class SignBlockEntityMixin {
     @Shadow
-    abstract public void setEditable(boolean editable);
+    private boolean editable;
+
+    @Shadow
+    private PlayerEntity editor;
+
+    private void setEditable(boolean editable) {
+        this.editable = editable;
+        if (!editable) {
+            this.editor = null;
+        }
+    }
 
     @Inject(method = "onActivate", at = @At("HEAD"))
     public void editSign(PlayerEntity player, CallbackInfoReturnable<Boolean> ci) {
