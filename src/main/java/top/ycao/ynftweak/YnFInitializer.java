@@ -1,7 +1,6 @@
 package top.ycao.ynftweak;
 
 import net.fabricmc.api.ModInitializer;
-
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -17,7 +16,7 @@ public class YnFInitializer implements ModInitializer {
     @Override
     public void onInitialize() {
         log(Level.INFO, "YnFTweak loaded.");
-        //TODO: Initializer
+        // TODO: Initializer
     }
 
     public static void log(Level level, String message){
