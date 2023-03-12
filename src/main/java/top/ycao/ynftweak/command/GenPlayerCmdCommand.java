@@ -36,7 +36,7 @@ public class GenPlayerCmdCommand {
         float yaw = player.getYaw();
         String worldRegKeyStr = player.getEntityWorld().getRegistryKey().getValue().toString();
         String reply = String.format("/player p spawn at %.2f %.2f %.2f facing %.2f %.2f in %s",
-                pos.x, pos.y, pos.z, pitch, yaw, worldRegKeyStr);
+                pos.x, pos.y, pos.z, yaw, pitch, worldRegKeyStr);
         Text clickableText = new LiteralText(reply)
                 .styled(style -> style.withHoverEvent(
                         new net.minecraft.text.HoverEvent(net.minecraft.text.HoverEvent.Action.SHOW_TEXT,
